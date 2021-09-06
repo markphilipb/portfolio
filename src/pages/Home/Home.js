@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Projects from "../Projects.js";
+import Projects from "../Projects/Projects.js";
 import HamburgerPanel from "../../components/HamburgerPanel/HamburgerPanel.js";
 import Navbar from "../../components/Navbar/Navbar.js";
 import SidePanel from "../../components/SidePanel/SidePanel.js";

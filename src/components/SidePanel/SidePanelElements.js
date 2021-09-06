@@ -9,11 +9,13 @@ export const Sidebar = styled.section`
 export const Intro = styled.section`
   color: #525252;
   align-items: left;
+  overflow-wrap: break-word;
 `;
 
 export const Blurb = styled.section`
   color: #525252;
   align-items: left;
+  overflow-wrap: break-word;
 `;
 
 export const Footer = styled.section`

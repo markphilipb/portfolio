@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Sidebar, Intro, Blurb, Footer } from "./SidePanelElements.js";
+import {
+  ProfilePic,
+  Sidebar,
+  Intro,
+  Blurb,
+  Footer,
+} from "./SidePanelElements.js";
+import profileImg from "../../imgs/profilePic.jpg";
 
 const SidePanel = () => {
   return (
     <Sidebar>
       <Intro>
-        <Link to="/" className="profilePic">
-          <img src="../../../public/imgs/profilePic.jpg" alt="" />
+        <Link to="/">
+          <ProfilePic src={profileImg} alt="hello" />
         </Link>
         <header>
           <h2>Mark Balazon</h2>

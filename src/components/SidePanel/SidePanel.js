@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Sidebar, Intro, Blurb, Footer } from "./SidePanelElements.js";
 
 const SidePanel = () => {
   return (
-    <section id="sidebar">
-      <section id="intro">
+    <Sidebar>
+      <Intro>
         <Link to="/" className="profilePic">
           <img src="../../../public/imgs/profilePic.jpg" alt="" />
         </Link>
@@ -13,17 +15,17 @@ const SidePanel = () => {
             <a href="mailto:mark.balazon@gmail.com">mark.balazon@gmail.com</a>
           </p>
         </header>
-      </section>
+      </Intro>
 
-      <section id="blurb">
+      <Blurb>
         <h2>About</h2>
         <p>my about</p>
-      </section>
+      </Blurb>
 
-      <section id="footer">
+      <Footer>
         <p className="copyright"> &copy; Mark Balazon</p>
-      </section>
-    </section>
+      </Footer>
+    </Sidebar>
   );
 };
 

@@ -1,7 +1,6 @@
 import React from "react";
-
 const Projects = () => {
-  return <div></div>;
+  return <></>;
 };
 
 export default Projects;

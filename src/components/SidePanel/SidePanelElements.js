@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const ProfilePic = styled.img`
   width: 10em;
-  border-radius: 50%;
+  border-radius: 50%/25%;
   display: block;
 `;
 
@@ -12,8 +12,6 @@ export const Sidebar = styled.section`
   margin-right: 3em;
   min-width: 22em;
   width: 22em;
-  border-style: solid;
-  border-color: #000;
 `;
 
 export const Intro = styled.section`

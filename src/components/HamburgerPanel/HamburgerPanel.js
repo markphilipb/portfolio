@@ -16,10 +16,18 @@ const HamburgerPanel = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about">About</SidebarLink>
-          <SidebarLink to="resume">Resume</SidebarLink>
-          <SidebarLink to="projects">Projects</SidebarLink>
-          <SidebarLink to="contact">Contact</SidebarLink>
+          <SidebarLink to="about" onClick={toggle}>
+            About
+          </SidebarLink>
+          <SidebarLink to="resume" onClick={toggle}>
+            Resume
+          </SidebarLink>
+          <SidebarLink to="projects" onClick={toggle}>
+            Projects
+          </SidebarLink>
+          <SidebarLink to="contact" onClick={toggle}>
+            Contact
+          </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

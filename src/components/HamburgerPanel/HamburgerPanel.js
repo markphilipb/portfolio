@@ -8,10 +8,10 @@ import {
   SidebarMenu,
 } from "./HamburgerPanelElements.js";
 
-const HamburgerPanel = () => {
+const HamburgerPanel = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>

@@ -12,4 +12,13 @@ export const Header = styled.section`
   color: #525252;
   align-items: left;
   overflow-wrap: break-word;
+  padding: 3.75em 3em 3.3em;
+
+  .title {
+    font-size: 40px;
+  }
+
+  .subTitle {
+    font-size: 20px;
+  }
 `;

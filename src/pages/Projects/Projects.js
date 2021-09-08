@@ -7,8 +7,8 @@ const Projects = () => {
   return (
     <Main>
       <Header>
-        <h2>Projects</h2>
-        <p>A collection of my projects</p>
+        <h2 className="title">Projects</h2>
+        <p className="subTitle">A collection of my projects</p>
       </Header>
       {data.map((project) => (
         <ProjectCell data={project} />

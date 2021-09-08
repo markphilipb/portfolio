@@ -7,6 +7,7 @@ import {
 } from "./ProjectCellElements.js";
 
 const ProjectCell = ({ data }) => {
+  let image = "../../imgs/projectImgs/eco_trip_pic.png";
   return (
     <ProjectCard>
       <Article>
@@ -14,10 +15,7 @@ const ProjectCell = ({ data }) => {
           <h3>{data.title}</h3>
         </ProjectHeader>
         <ProjectPic href={data.link}>
-          <img
-            src={require("./../../imgs/projectImgs/eco_trip_pic.png")}
-            alt={data.title}
-          />
+          <img src={data.img} alt={data.title} className="pic" />
         </ProjectPic>
       </Article>
     </ProjectCard>

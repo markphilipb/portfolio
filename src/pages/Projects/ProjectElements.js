@@ -8,6 +8,10 @@ export const ProjectMain = styled.div`
   width: 22em;
 `;
 
+export const ProjectContainer = styled.div`
+  padding: 3.75em 3em 3.3em;
+`;
+
 export const Header = styled.section`
   color: #525252;
   align-items: left;

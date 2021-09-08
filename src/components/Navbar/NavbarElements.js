@@ -6,9 +6,11 @@ export const Nav = styled.nav`
   background: #fff;
   height: 80px;
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  justify-content: flex-start;
+  padding: 0.5rem calc((50vw - 1000px) / 2);
   z-index: 10;
+  font-family: "Courier New";
+  letter-spacing: 0.12em;
 `;
 
 export const NavLink = styled(Link)`
@@ -19,6 +21,11 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  .nameLogo {
+    font-weight: 700;
+  }
 
   ${
     "" /* &.active {

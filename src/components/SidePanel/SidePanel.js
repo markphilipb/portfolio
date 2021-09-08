@@ -28,11 +28,11 @@ const SidePanel = () => {
 
       <Blurb>
         <h2>About</h2>
-        <p>my about</p>
+        <p>Hey, I'm Mark. I'm a Software Engineer.</p>
       </Blurb>
 
       <Footer>
-        <p className="copyright"> &copy; Mark Balazon</p>
+        <p className="copyright"> &copy; Mark Balazon markbalazon.com</p>
       </Footer>
     </Sidebar>
   );

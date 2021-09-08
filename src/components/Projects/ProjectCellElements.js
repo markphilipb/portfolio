@@ -9,3 +9,5 @@ export const Article = styled.article``;
 export const ProjectHeader = styled.header`
   overflow-wrap: break-word;
 `;
+
+export const ProjectPic = styled.a``;

@@ -50,4 +50,9 @@ export const Blurb = styled.section`
 export const Footer = styled.section`
   color: #525252;
   align-items: left;
+  padding: 2em 0 0;
+
+  .copyright {
+    font-size: 15px;
+  }
 `;

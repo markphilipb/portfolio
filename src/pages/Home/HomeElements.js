@@ -5,8 +5,9 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 4.5em;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1440px) {
     flex-direction: column-reverse;
   }
 `;

@@ -17,9 +17,11 @@ const SidePanel = () => {
           <ProfilePic src={profileImg} alt="hello" />
         </Link>
         <header>
-          <h2>Mark Balazon</h2>
+          <h2 className="name">Mark Balazon</h2>
           <p>
-            <a href="mailto:mark.balazon@gmail.com">mark.balazon@gmail.com</a>
+            <a href="mailto:mark.balazon@gmail.com" className="email">
+              mark.balazon@gmail.com
+            </a>
           </p>
         </header>
       </Intro>

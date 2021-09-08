@@ -1,14 +1,40 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import {
+  ProfilePic,
+  Sidebar,
+  Intro,
+  Blurb,
+  Footer,
+} from "./SidePanelElements.js";
+import profileImg from "../../imgs/profilePic.jpg";
 
 const SidePanel = () => {
   return (
-    <section id="sidebar">
-      <section id="intro"></section>
+    <Sidebar>
+      <Intro>
+        <Link to="/">
+          <ProfilePic src={profileImg} alt="hello" />
+        </Link>
+        <header>
+          <h2 className="name">Mark Balazon</h2>
+          <p>
+            <a href="mailto:mark.balazon@gmail.com" className="email">
+              mark.balazon@gmail.com
+            </a>
+          </p>
+        </header>
+      </Intro>
 
-      <section id="blurb"></section>
+      <Blurb>
+        <h2>About</h2>
+        <p>my about</p>
+      </Blurb>
 
-      <section id="footer"></section>
-    </section>
+      <Footer>
+        <p className="copyright"> &copy; Mark Balazon</p>
+      </Footer>
+    </Sidebar>
   );
 };
 

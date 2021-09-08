@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const ProfilePic = styled.img`
   width: 10em;
-  border-radius: 50%/25%;
+  border-radius: 50%;
   display: block;
 `;
 
@@ -30,6 +30,11 @@ export const Intro = styled.section`
     text-decoration: none;
     color: #525252;
     font-size: 20px;
+
+    &:hover {
+      color: #01bf71;
+      transition: 0.2 ease-in-out;
+    }
   }
 `;
 

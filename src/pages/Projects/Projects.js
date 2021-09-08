@@ -1,11 +1,11 @@
 import React from "react";
-import { Main, Header } from "./ProjectElements.js";
+import { ProjectMain, Header } from "./ProjectElements.js";
 import data from "../../data/projectsData.js";
 import ProjectCell from "../../components/Projects/ProjectCell.js";
 
 const Projects = () => {
   return (
-    <Main>
+    <ProjectMain>
       <Header>
         <h2 className="title">Projects</h2>
         <p className="subTitle">A collection of my projects</p>
@@ -13,7 +13,7 @@ const Projects = () => {
       {data.map((project) => (
         <ProjectCell data={project} />
       ))}
-    </Main>
+    </ProjectMain>
   );
 };
 

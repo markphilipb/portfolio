@@ -7,7 +7,7 @@ export const ProjectMain = styled.div`
   min-width: 10em;
   width: 65em;
 
-  @media screen and (max-width: 1580px) {
+  @media screen and (max-width: 1220px) {
     margin: 0 auto;
     width: 100%;
   }

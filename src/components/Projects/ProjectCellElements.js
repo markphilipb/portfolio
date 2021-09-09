@@ -11,6 +11,22 @@ export const Article = styled.article``;
 
 export const ProjectHeader = styled.header`
   overflow-wrap: break-word;
+  display: flex;
+  justify-content: space-between;
+
+  .projectTitle {
+    font-size: 25px;
+  }
+
+  .srclink {
+    font-size: 15px;
+    font-weight: 520;
+    color: inherit;
+    &:hover {
+      color: #01bf71;
+      transition: 0.2 ease-in-out;
+    }
+  }
 `;
 
 export const ProjectPic = styled.a`

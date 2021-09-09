@@ -5,7 +5,7 @@ const data = [
     frontlink: "https://github.com/markphilipb/eco_trip",
     backlink: "https://github.com/markphilipb/eco_trip_backend",
     link: "https://github.com/markphilipb/eco_trip",
-    img: "../../imgs/projectImgs/eco_trip_pic.png",
+    img: "./imgs/projectImgs/eco_trip_pic.png",
     desc: "Calculate your vehicles carbon footprint from point A to point B",
   },
   {
@@ -14,7 +14,7 @@ const data = [
     frontlink: "https://github.com/markphilipb/HurstApp",
     backlink: "https://github.com/markphilipb/hurstapp_backend",
     link: "https://github.com/markphilipb/HurstApp",
-    img: "../../imgs/projectImgs/theHurstPic.png",
+    img: "./imgs/projectImgs/theHurstPic.png",
     desc: "E-Commerce web application",
   },
 ];

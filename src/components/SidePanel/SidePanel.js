@@ -8,6 +8,7 @@ import {
   Footer,
 } from "./SidePanelElements.js";
 import profileImg from "../../imgs/profilePic.jpg";
+import ContactIcons from "../Contact/ContactIcons.js";
 
 const SidePanel = () => {
   return (
@@ -32,6 +33,7 @@ const SidePanel = () => {
       </Blurb>
 
       <Footer>
+        <ContactIcons className="contacticons" />
         <p className="copyright"> &copy; Mark Balazon markbalazon.com</p>
       </Footer>
     </Sidebar>

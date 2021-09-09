@@ -9,7 +9,8 @@ export const Main = styled.div`
   font-family: "Courier New";
   letter-spacing: 0.1em;
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1580px) {
     flex-direction: column-reverse;
+    padding: 0em;
   }
 `;

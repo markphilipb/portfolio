@@ -4,12 +4,21 @@ export const ProjectMain = styled.div`
   background: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: #525252;
-  min-width: 55em;
-  width: 22em;
+  min-width: 10em;
+  width: 65em;
+
+  @media screen and (max-width: 1580px) {
+    margin: 0 auto;
+    width: 100%;
+  }
 `;
 
 export const ProjectContainer = styled.div`
   padding: 3.75em 3em 3.3em;
+
+  @media screen and (max-width: 900px) {
+    padding: 0em;
+  }
 `;
 
 export const Header = styled.section`

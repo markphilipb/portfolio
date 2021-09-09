@@ -5,6 +5,11 @@ export const ProfilePic = styled.img`
   width: 10em;
   border-radius: 50%;
   display: block;
+
+  @media screen and (max-width: 1580px) {
+    margin: 0 auto;
+    width: 10em;
+  }
 `;
 
 export const Sidebar = styled.section`
@@ -13,8 +18,11 @@ export const Sidebar = styled.section`
   min-width: 22em;
   width: 22em;
 
-  @media screen and (max-width: 1440px) {
-    padding: 4.5em;
+  @media screen and (max-width: 1580px) {
+    ${"" /* padding: 4.5em; */}
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 15%;
   }
 `;
 
@@ -36,6 +44,9 @@ export const Intro = styled.section`
       transition: 0.2 ease-in-out;
     }
   }
+  @media screen and (max-width: 1580px) {
+    text-align: center;
+  }
 `;
 
 export const Blurb = styled.section`
@@ -45,6 +56,10 @@ export const Blurb = styled.section`
   border-top: 1px solid hsla(0, 0%, 62.7%, 0.3);
   margin: 3em 0 0;
   padding: 2em 0 0;
+
+  @media screen and (max-width: 1580px) {
+    text-align: center;
+  }
 `;
 
 export const Footer = styled.section`
@@ -54,5 +69,9 @@ export const Footer = styled.section`
 
   .copyright {
     font-size: 15px;
+  }
+
+  @media screen and (max-width: 1580px) {
+    text-align: center;
   }
 `;

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/portfolio/static/js/main.84e5e12f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.84e5e12f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bdee089b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bdee089b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0e81f2f2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0e81f2f2.js.map",
     "static/js/2.6119d1a9.chunk.js": "/portfolio/static/js/2.6119d1a9.chunk.js",
@@ -12,12 +12,14 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.ea1455b2.chunk.css.map": "/portfolio/static/css/main.ea1455b2.chunk.css.map",
     "static/js/2.6119d1a9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6119d1a9.chunk.js.LICENSE.txt",
-    "static/media/profilePic.b3509291.jpg": "/portfolio/static/media/profilePic.b3509291.jpg"
+    "static/media/eco_trip_pic.1e370660.png": "/portfolio/static/media/eco_trip_pic.1e370660.png",
+    "static/media/profilePic.b3509291.jpg": "/portfolio/static/media/profilePic.b3509291.jpg",
+    "static/media/the_hurst_pic.e5394a89.png": "/portfolio/static/media/the_hurst_pic.e5394a89.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0e81f2f2.js",
     "static/js/2.6119d1a9.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.84e5e12f.chunk.js"
+    "static/js/main.bdee089b.chunk.js"
   ]
 }

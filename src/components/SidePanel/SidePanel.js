@@ -8,6 +8,8 @@ import {
   Footer,
 } from "./SidePanelElements.js";
 import profileImg from "../../imgs/profilePic.jpg";
+import ContactIcons from "../Contact/ContactIcons.js";
+import Typed from "react-typed";
 
 const SidePanel = () => {
   return (
@@ -28,11 +30,18 @@ const SidePanel = () => {
 
       <Blurb>
         <h2>About</h2>
-        <p>my about</p>
+        <Typed
+          strings={["Hey, I'm Mark. I'm a Software Engineer"]}
+          typeSpeed={40}
+          backSpeed={50}
+          backDelay={10000}
+          loop
+        />
       </Blurb>
 
       <Footer>
-        <p className="copyright"> &copy; Mark Balazon</p>
+        <ContactIcons className="contacticons" />
+        <p className="copyright"> &copy; 2021 Mark Balazon </p>
       </Footer>
     </Sidebar>
   );

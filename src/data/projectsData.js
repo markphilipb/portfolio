@@ -1,3 +1,6 @@
+import ecoTrip from "../imgs/eco_trip_pic.png";
+import hurstApp from "../imgs/the_hurst_pic.png";
+
 const data = [
   {
     title: "Eco Trip",
@@ -5,7 +8,7 @@ const data = [
     frontlink: "https://github.com/markphilipb/eco_trip",
     backlink: "https://github.com/markphilipb/eco_trip_backend",
     link: "https://github.com/markphilipb/eco_trip",
-    img: "./imgs/eco_trip_pic.png",
+    img: ecoTrip,
     desc: "Calculate your vehicles carbon footprint from point A to point B",
   },
   {
@@ -14,7 +17,7 @@ const data = [
     frontlink: "https://github.com/markphilipb/HurstApp",
     backlink: "https://github.com/markphilipb/hurstapp_backend",
     link: "https://github.com/markphilipb/HurstApp",
-    img: "./imgs/the_hurst_pic.png",
+    img: hurstApp,
     desc: "E-Commerce web application",
   },
 ];

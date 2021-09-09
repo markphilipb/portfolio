@@ -14,7 +14,7 @@ const data = [
     frontlink: "https://github.com/markphilipb/HurstApp",
     backlink: "https://github.com/markphilipb/hurstapp_backend",
     link: "https://github.com/markphilipb/HurstApp",
-    img: "./imgs/projectImgs/theHurstPic.png",
+    img: "./imgs/projectImgs/the_hurst_pic.png",
     desc: "E-Commerce web application",
   },
 ];

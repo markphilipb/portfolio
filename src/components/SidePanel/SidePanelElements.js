@@ -10,6 +10,10 @@ export const ProfilePic = styled.img`
     margin: 0 auto;
     width: 10em;
   }
+
+  @media screen and (max-width: 740px) {
+    width: 9em;
+  }
 `;
 
 export const Sidebar = styled.section`
@@ -17,6 +21,7 @@ export const Sidebar = styled.section`
   margin-right: 3em;
   min-width: 22em;
   width: 22em;
+  padding-top: 3em;
 
   @media screen and (max-width: 1220px) {
     ${"" /* padding: 4.5em; */}
@@ -32,6 +37,9 @@ export const Intro = styled.section`
 
   .name {
     font-size: 40px;
+    @media screen and (max-width: 740px) {
+      font-size: 30px;
+    }
   }
 
   .email {
@@ -42,6 +50,9 @@ export const Intro = styled.section`
     &:hover {
       color: #01bf71;
       transition: 0.2 ease-in-out;
+    }
+    @media screen and (max-width: 740px) {
+      font-size: 15px;
     }
   }
   @media screen and (max-width: 1220px) {
@@ -60,6 +71,10 @@ export const Blurb = styled.section`
   @media screen and (max-width: 1220px) {
     text-align: center;
   }
+
+  @media screen and (max-width: 740px) {
+    font-size: 15px;
+  }
 `;
 
 export const Footer = styled.section`
@@ -69,9 +84,15 @@ export const Footer = styled.section`
 
   .copyright {
     font-size: 15px;
+    @media screen and (max-width: 740px) {
+      font-size: 10px;
+    }
   }
 
   @media screen and (max-width: 1220px) {
     text-align: center;
+  }
+  @media screen and (max-width: 740px) {
+    font-size: 10px;
   }
 `;

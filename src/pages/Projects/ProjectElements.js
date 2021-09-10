@@ -29,9 +29,18 @@ export const Header = styled.section`
 
   .title {
     font-size: 40px;
+
+    @media screen and (max-width: 740px) {
+      font-size: 25px;
+      text-align: center;
+    }
   }
 
   .subTitle {
     font-size: 20px;
+    @media screen and (max-width: 740px) {
+      font-size: 14px;
+      text-align: center;
+    }
   }
 `;

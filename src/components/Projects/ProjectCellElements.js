@@ -7,7 +7,11 @@ export const ProjectCard = styled.div`
   margin-bottom: 5%;
 `;
 
-export const Article = styled.article``;
+export const Article = styled.article`
+  @media screen and (max-width: 740px) {
+    font-size: 10px;
+  }
+`;
 
 export const ProjectHeader = styled.header`
   overflow-wrap: break-word;
@@ -16,15 +20,24 @@ export const ProjectHeader = styled.header`
 
   .projectTitle {
     font-size: 25px;
+
+    @media screen and (max-width: 740px) {
+      font-size: 15px;
+    }
   }
 
   .srclink {
     font-size: 15px;
     font-weight: 520;
     color: inherit;
+    text-decoration: none;
     &:hover {
       color: #01bf71;
       transition: 0.2 ease-in-out;
+    }
+
+    @media screen and (max-width: 740px) {
+      font-size: 10px;
     }
   }
 `;

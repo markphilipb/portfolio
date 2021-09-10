@@ -15,9 +15,8 @@ const ProjectCell = ({ data }) => {
           <h3 className="projectTitle">{data.title}</h3>
           <h3>
             <a href={data.frontlink} className="srclink">
-              frontend
-            </a>{" "}
-            |{" "}
+              frontend{" "}
+            </a>
             <a href={data.backlink} className="srclink">
               backend
             </a>

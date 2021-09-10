@@ -11,6 +11,9 @@ export const Nav = styled.nav`
   z-index: 10;
   font-family: "Courier New";
   letter-spacing: 0.12em;
+  @media screen and (max-width: 740px) {
+    height: 50px;
+  }
 `;
 
 export const NavLink = styled(Link)`
@@ -25,6 +28,9 @@ export const NavLink = styled(Link)`
   font-weight: 300;
   .nameLogo {
     font-weight: 700;
+    @media screen and (max-width: 740px) {
+      font-size: 15px;
+    }
   }
 
   ${

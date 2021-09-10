@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/portfolio/static/js/main.bdee089b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bdee089b.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.0e81f2f2.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0e81f2f2.js.map",
-    "static/js/2.6119d1a9.chunk.js": "/portfolio/static/js/2.6119d1a9.chunk.js",
-    "static/js/2.6119d1a9.chunk.js.map": "/portfolio/static/js/2.6119d1a9.chunk.js.map",
-    "static/js/3.5ca925f7.chunk.js": "/portfolio/static/js/3.5ca925f7.chunk.js",
-    "static/js/3.5ca925f7.chunk.js.map": "/portfolio/static/js/3.5ca925f7.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.ea1455b2.chunk.css.map": "/portfolio/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.6119d1a9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6119d1a9.chunk.js.LICENSE.txt",
-    "static/media/eco_trip_pic.1e370660.png": "/portfolio/static/media/eco_trip_pic.1e370660.png",
-    "static/media/profilePic.b3509291.jpg": "/portfolio/static/media/profilePic.b3509291.jpg",
-    "static/media/the_hurst_pic.e5394a89.png": "/portfolio/static/media/the_hurst_pic.e5394a89.png"
+    "main.css": "/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/static/js/main.bdee089b.chunk.js",
+    "main.js.map": "/static/js/main.bdee089b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a48da3e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a48da3e0.js.map",
+    "static/js/2.b9ce854c.chunk.js": "/static/js/2.b9ce854c.chunk.js",
+    "static/js/2.b9ce854c.chunk.js.map": "/static/js/2.b9ce854c.chunk.js.map",
+    "static/js/3.5ca925f7.chunk.js": "/static/js/3.5ca925f7.chunk.js",
+    "static/js/3.5ca925f7.chunk.js.map": "/static/js/3.5ca925f7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.b9ce854c.chunk.js.LICENSE.txt": "/static/js/2.b9ce854c.chunk.js.LICENSE.txt",
+    "static/media/eco_trip_pic.1e370660.png": "/static/media/eco_trip_pic.1e370660.png",
+    "static/media/profilePic.b3509291.jpg": "/static/media/profilePic.b3509291.jpg",
+    "static/media/the_hurst_pic.e5394a89.png": "/static/media/the_hurst_pic.e5394a89.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e81f2f2.js",
-    "static/js/2.6119d1a9.chunk.js",
+    "static/js/runtime-main.a48da3e0.js",
+    "static/js/2.b9ce854c.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
     "static/js/main.bdee089b.chunk.js"
   ]

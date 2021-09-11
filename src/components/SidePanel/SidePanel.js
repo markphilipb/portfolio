@@ -33,7 +33,7 @@ const SidePanel = () => {
         <Typed
           strings={["Hey, I'm Mark. I'm a Software Engineer"]}
           typeSpeed={40}
-          backSpeed={50}
+          backSpeed={10}
           backDelay={10000}
           loop
         />

@@ -6,6 +6,7 @@ export const ProjectMain = styled.div`
   color: #525252;
   min-width: 10em;
   width: 55em;
+  margin-top: 3em;
 
   @media screen and (max-width: 1220px) {
     margin: 0 auto;

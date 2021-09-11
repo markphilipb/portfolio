@@ -21,7 +21,7 @@ export const Sidebar = styled.section`
   margin-right: 3em;
   min-width: 22em;
   width: 22em;
-  padding-top: 3em;
+  margin-top: 3em;
 
   @media screen and (max-width: 1220px) {
     ${"" /* padding: 4.5em; */}

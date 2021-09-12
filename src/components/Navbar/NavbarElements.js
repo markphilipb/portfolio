@@ -5,12 +5,15 @@ import { FaBars } from "react-icons/fa";
 export const Nav = styled.nav`
   background: #fff;
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   padding: 0.5rem calc((50vw - 1000px) / 2);
   z-index: 10;
   font-family: "Courier New";
   letter-spacing: 0.12em;
+  top: 0px;
+  position: sticky;
   @media screen and (max-width: 740px) {
     height: 50px;
   }

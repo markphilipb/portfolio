@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import SwitchToggle from "../Switch/SwitchToggle";
 
 export const Nav = styled.nav`
   background: #fff;
@@ -65,8 +66,13 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-
+  right: 500px;
   @media screen and (max-width: 768px) {
     display: none;
   }
+`;
+
+export const ModeSwitch = styled(SwitchToggle)`
+  margin-left: auto;
+  margin-right: 0;
 `;

@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, NavLink, NavMenu, Bars } from "./NavbarElements.js";
+import { Nav, NavLink, NavMenu, Bars, ModeSwitch } from "./NavbarElements.js";
+import SwitchToggle from "../Switch/SwitchToggle.js";
 
 const Navbar = ({ toggle }) => {
   return (
@@ -22,6 +23,7 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/contact" activeStyle>
             contact
           </NavLink>
+          <ModeSwitch />
         </NavMenu>
       </Nav>
     </>

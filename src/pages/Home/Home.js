@@ -19,6 +19,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Main>
         <SidePanel />
+
         <Switch>
           {/* <Route path="/" exact component={Projects} /> */}
           <Route path="/projects" exact component={Projects} />

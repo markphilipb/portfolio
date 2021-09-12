@@ -5,7 +5,9 @@ export const ProjectMain = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: #525252;
   min-width: 10em;
-  width: 55em;
+  ${"" /* width: 55em; */}
+  width: 65%;
+  max-width: 65em;
   margin-top: 3em;
 
   @media screen and (max-width: 1220px) {
